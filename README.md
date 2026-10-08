@@ -1,1 +1,1 @@
-# clock-gating-
+clock gating blog 
