@@ -1,1 +1,6 @@
+In modern ASIC design, power consumption is one of the most critical design considerations. With battery-powered devices such as smartphones, wearables, tablets, and IoT products used every day, extending battery life while maintaining performance has become essential. A significant portion of dynamic power in a synchronous digital design is consumed by the clock network. Unlike normal data signals, the clock toggles continuously across a large number of sequential elements, even when many registers or functional blocks are not performing useful work. Clock gating addresses this problem by selectively disabling the clock to inactive logic, reducing unnecessary switching activity and therefore lowering dynamic power consumption. Before starting clock gating, let’s first understand the power-consumption blog. 
+
+What is clock gating  
+
+Clock gating is a dynamic-power-reduction technique in which the clock is selectively disabled for inactive registers (inactive register means that register not storing the new data). This prevents unnecessary switching in the downstream clock tree—such as clock buffers, inverters, and flip-flop clock pins—thereby reducing clock-network power. 
 
